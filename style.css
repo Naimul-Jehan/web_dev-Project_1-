@@ -120,3 +120,39 @@ html,body{
     align-items: center;
     justify-content:center;
 }
+
+.second{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    padding-right: 9vw;
+    padding-left: 5vw;
+    
+    color: white;
+}
+.element{
+    width: 100%;
+    
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+}
+
+.element h1{
+    text-transform: uppercase;
+    font-size: 5vw;
+    margin: 1.8vw;
+    opacity: .7;
+}
+.element_last{
+    border-bottom: 1px solid gray;
+}
+
+.element .h5{
+    opacity: .7;
+}

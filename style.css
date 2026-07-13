@@ -132,6 +132,7 @@ html,body{
     color: white;
 }
 .element{
+    position: relative;
     width: 100%;
     
     border-top: 1px solid gray;
@@ -155,4 +156,11 @@ html,body{
 
 .element .h5{
     opacity: .7;
+}
+
+.element img{
+    z-index: 999;
+    position: absolute;
+    height: 150%;
+    display: none;
 }

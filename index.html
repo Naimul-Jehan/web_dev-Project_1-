@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="minicircle"></div>
     <div class="main">
       <div class="hero">
         <div class="nav">
@@ -19,15 +24,26 @@
           <h4>MENU+</h4>
         </div>
         <div class="heading">
-          <h1>Product</h1>
+          <div class="bounding">
+            <h1 class="boundingelem">Product</h1>
+          </div>
+
           <div class="blocktext">
-            <h1 class="secondh1">Designer</h1>
-            <h5>Based in Bangladesh</h5>
+            <div class="bounding">
+              <h1 class="boundingelem secondh1">Designer</h1>
+            </div>
+            <div class="bounding based-right">
+              <h5 class="boundingelem">Based in Bangladesh</h5>
+            </div>
           </div>
         </div>
         <div class="secondHeading">
-          <h5>Available for freelance</h5>
-          <h5>Work from May '23</h5>
+          <div class="bounding">
+            <h5 class="boundingelem2">Available for freelance</h5>
+          </div>
+          <div class="bounding">
+            <h5 class="boundingelem2">Work from May '23</h5>
+          </div>
         </div>
         <div class="heroFooter">
           <a href="#"
@@ -136,11 +152,18 @@
         </div>
         <div class="footerright">
           <a href="#">dribble</a>
-          <a href="#">instagram</a
-          ><a href="#">linkedin</a>
+          <a href="#">instagram</a><a href="#">linkedin</a>
           <a href="#">twitter</a>
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"
+      integrity="sha512-Qrpii3NEFZ02RN6ZqpTu6pS/5PEq7EzBYJLki3AKBd8IncrlAwQdZHzExYwS0+b1NM0/qfxI1GOhqWLVosocDA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
